@@ -1,0 +1,33 @@
+#outercontainer {
+	height: 800px;
+	position: relative;
+	text-align: center;
+}
+#innercontainer {
+	position: absolute;
+	top: 160px;
+	height: 320px;
+	width: 1200px;
+	margin-left: 80px;
+	font-family: "Times New Roman", Times, serif;
+}
+.title {
+	font-size: 20px;
+	margin-bottom: -45px;
+}
+.rand_numb {
+	vertical-align: middle;
+	font-size: 60px;
+	border: 2px double black;
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 10px;
+	line-height: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.gen_btn {
+	font-weight: bold;
+	background-color: white;
+	border: 1px double black;
+}

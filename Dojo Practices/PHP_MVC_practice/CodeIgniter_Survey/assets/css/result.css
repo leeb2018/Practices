@@ -1,0 +1,46 @@
+#container {
+	text-align: center;
+	font-family: arial;
+}
+.sub_message {
+	border: 2px solid black;
+	width: 40%;
+	margin: auto;
+	padding: 1%;
+	background-color: #66ff66;
+}
+#sub_info{
+	border: 2px solid black;
+	width: 40%;
+	margin: auto;
+	padding: 1%;
+	vertical-align: top;
+}
+.title {
+	font-size: 15px;
+	font-style: italic;
+	width: 80%;
+	margin: auto;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.info_table {
+	width: 80%;
+	margin: auto;
+}
+.title + .info_table {
+	margin-top: 3%;
+}
+.submit {
+	width : 100px;
+	height: 30px;
+	font-size: 18px;
+	color: white;
+	background-color: #66a2ff;
+	margin-left: 70%;
+	margin-top: 40%;
+}
+th, td {
+	vertical-align: top;
+	width: 100px;
+}

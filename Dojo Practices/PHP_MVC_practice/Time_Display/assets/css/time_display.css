@@ -1,0 +1,27 @@
+#containter {
+	text-align: center;
+}
+.blurb {
+	font-size: 15px;
+	font-family: sans-serif;
+	border: 2px solid black;
+	width: 250px;
+	height: 5px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin: auto;
+}
+.current_time {
+	font-size: 40px;
+	font-family: sans-serif;
+	border: 2px solid black;
+	width: 400px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+}
+.blurb + .current_time {
+	margin-top: 10px;
+}
